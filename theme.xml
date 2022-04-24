@@ -153,7 +153,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	<view name="system">
 		<image name="startSet" extra="static">
 			<pos>0.2828125 0.816666666666667</pos>
-			<size>0.239583333333333 0.134259259259259</size>
+			<size>0.2 0.125</size>
 			<path>./_inc/assets/start.png</path>
 			<path>./${system.theme}/_inc/start.png</path>
 			<zIndex>200</zIndex>
@@ -276,7 +276,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 		<image name="system_help" extra="static">
 			<path>./_inc/assets/syshelp.svg</path>
-			<pos>0.328125 0.918518518518519</pos>
+			<pos>0.428125 0.918518518518519</pos>
 			<zIndex>200</zIndex>
 		</image>
 
@@ -300,7 +300,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 		<image name="btnSet" extra="true">
 			<pos>0.052083333333333 0.818518518518519</pos>
-			<size>0.34 0.134259259259259</size>
+			<size>0.2 0.125</size>
 			<path>./_inc/assets/btnset.png</path>
 			<path>./${system.theme}/_inc/btnset.png</path>
 			<zIndex>100</zIndex>
