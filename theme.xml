@@ -13,7 +13,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 	<variables>
 		<!--<tilesViewName>Tiles</tilesViewName>-->
-		<subset.buttonSet>Button styles</subset.buttonSet> 
+		<subset.buttonSet>Button styles</subset.buttonSet>
 		<subset.boxNames>Show game names on Boxes View</subset.boxNames>
 		<subset.darkmode>Use Darker Mode</subset.darkmode>
 		<subset.videoDelay>System select video delay</subset.videoDelay>
@@ -48,7 +48,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	</view>
 
 
-	<view name="screen"> 
+	<view name="screen">
 		<controllerActivity name="controllerActivity">
 			<pos>-2 -2</pos>
 			<size>0.072395833333333 0.017592592592593</size>
@@ -56,7 +56,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<color>FFFFFF90</color>
 			<activityColor>FFFFFF</activityColor>
 			<hotkeyColor>DEEC00</hotkeyColor>
-		</controllerActivity> 
+		</controllerActivity>
 
 		<text name="clock">
 			<color>ffffff</color>
@@ -68,16 +68,14 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</text>
 
 
-<!-- forces UI icons off screen by default -->
- <batteryIndicator name="batteryIndicator">
-      <pos>-2 -2</pos>
-      <color>00000000</color>
-    </batteryIndicator>
+		<!-- forces UI icons off screen by default -->
+		<batteryIndicator name="batteryIndicator">
+			<pos>-2 -2</pos>
+			<color>00000000</color>
+		</batteryIndicator>
 
 
 	</view>
-
-
 
 
 	<view name="system">
@@ -98,14 +96,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</image>
 	</view>
 
-
-
-
-
-
-
-
-
 	<view name="system, basic, detailed, grid">
 		<image name="background" extra="true">
 			<origin>0 0</origin>
@@ -115,12 +105,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<zIndex>0</zIndex>
 		</image>
 	</view>
-
-
-
-
-
-
 
 	<view name="menu">
 		<menuText name="menutitle">
@@ -155,7 +139,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
 			<fontSize>0.015</fontSize>
 			<color>ffffff</color>
-			<separatorColor>3c3c3c</separatorColor>    
+			<separatorColor>3c3c3c</separatorColor>
 			<backgroundColor>00000000</backgroundColor>
 			<lineSpacing>2.5</lineSpacing>
 		</menuGroup>
@@ -166,45 +150,30 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</menuBackground>
 	</view>
 
-
-
-
-
-
-
-
 	<view name="system">
 		<image name="startSet" extra="static">
 			<pos>0.2828125 0.816666666666667</pos>
 			<size>0.239583333333333 0.134259259259259</size>
-			<path>./_inc/assets/start.png</path> 
+			<path>./_inc/assets/start.png</path>
 			<path>./${system.theme}/_inc/start.png</path>
 			<zIndex>200</zIndex>
 		</image>
 	</view>
 
-
-
-
-
-
-
 	<view name="system">
-
-
 		<image name="sysBackgrounds" extra="true">
 			<origin>0 0</origin>
-			<pos>0.229166666666667 0</pos>
-			<size>0.770833333333333 1</size>
+			<pos>0 0</pos>
+			<size>1.096296296 1</size>
 			<path>./_inc/assets/default.svg</path>
 			<path>./${system.theme}/_inc/bg.jpg</path>
 		</image>
 
-		<image name="batologo" extra="static">
+		<image name="batologo" extra="true">
 			<origin>1 0</origin>
 			<pos>0.9739583333333333 0.0462962962962963</pos>
-			<size>0.0723958333333333 0.0204444444444444</size>
-			<path>./_inc/icons/batocera.svg</path>    
+			<size>0.10859375 0.022460937</size>
+			<path>./_inc/icons/batocera.svg</path>
 			<zIndex>200</zIndex>
 		</image>
 
@@ -235,6 +204,14 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<systemInfoDelay>700</systemInfoDelay>
 			<scrollSound>./_inc/sound/slide.wav</scrollSound>
 		</carousel>
+		
+		<image name="carouselbg" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>0.2305 1</size>
+			<path>./_inc/assets/background.png</path>
+			<zIndex>28</zIndex>
+		</image>
 
 		<text name="logoText">
 			<origin>0 0</origin>
@@ -259,11 +236,11 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		<image name="gamemarker" extra="static">
 			<path>./_inc/assets/marker.png</path>
 			<path>./${system.theme}/_inc/marker.png</path>
-			<size>0.0078125 0.1666666666666667</size>
+			<size>0.009 0.17</size>
 			<pos>0.2213541666666667 0.4166666666666667</pos>
 			<origin>0 0</origin>
 			<zIndex>30</zIndex>
-		</image>  
+		</image>
 
 		<text name="systemInfo">
 			<pos>0.2828125 0.77</pos>
@@ -273,7 +250,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<fontPath>./_inc/fonts/RedHatDisplay-Regular.ttf</fontPath>
 			<fontSize>0.022</fontSize>
 			<alignment>left</alignment>
-		</text> 
+		</text>
 
 		<image name="mainlogo" extra="static">
 			<origin>0 1</origin>
@@ -282,12 +259,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<pos>0.28125 0.750185185185185</pos>
 			<maxSize>0.192708333333333 0.148148148148148</maxSize>
 			<zIndex>100</zIndex>
- 
-
 		</image>
-
-
-
 
 		<image name="mainlogo" extra="true" region="eu">
 			<path>./${system.theme}/_inc/mainlogo-eu.svg</path>
@@ -295,7 +267,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		<image name="mainlogo" extra="true" region="jp">
 			<path>./${system.theme}/_inc/mainlogo-jp.svg</path>
 		</image>
-		<image name="mainlogo" extra="true"  region="us">
+		<image name="mainlogo" extra="true" region="us">
 			<path>./${system.theme}/_inc/mainlogo-us.svg</path>
 		</image>
 		<image name="mainlogo" extra="true" region="mix">
@@ -305,18 +277,15 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		<image name="system_help" extra="static">
 			<path>./_inc/assets/syshelp.svg</path>
 			<pos>0.328125 0.918518518518519</pos>
-			<maxSize>0.546875 0.05</maxSize>
 			<zIndex>200</zIndex>
 		</image>
 
 		<helpsystem name="help">
-			<pos>-2 -2</pos>      
-			<textColor>ffffff</textColor>         
+			<pos>-2 -2</pos>
+			<textColor>ffffff</textColor>
 		</helpsystem>
 
 	</view>
-
-
 
 
 	<view name="basic, detailed, grid">
@@ -327,17 +296,16 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<iconColor>f11c00</iconColor>
 			<fontPath>./_inc/fonts/RedHatDisplay-Regular.ttf</fontPath>
 			<fontSize>0.0</fontSize>
-		</helpsystem> 
+		</helpsystem>
 
 		<image name="btnSet" extra="true">
 			<pos>0.052083333333333 0.818518518518519</pos>
-			<size>0.239583333333333 0.134259259259259</size>
+			<size>0.34 0.134259259259259</size>
 			<path>./_inc/assets/btnset.png</path>
 			<path>./${system.theme}/_inc/btnset.png</path>
 			<zIndex>100</zIndex>
 		</image>
 	</view>
-
 
 	<view name="basic, detailed">
 		<text name="md_lbl_genre, md_lbl_rating, md_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_lbl_releasedate">
@@ -363,8 +331,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 		<image name="list_help" extra="true">
 			<path>./_inc/assets/tilehelp.svg</path>
-			<pos>0.3890625 0.918518518518519</pos>
-			<maxSize>0.546875 0.05</maxSize>
+			<pos>0.25 0.918518518518519</pos>
 			<zIndex>100</zIndex>
 		</image>
 
@@ -387,10 +354,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		<image name="logo" region="mix">
 			<path>./${system.theme}/_inc/mainlogo.svg</path>
 		</image>
-
-
-
-
 
 
 		<text name="logoText">
@@ -423,20 +386,14 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<scrollSound>./_inc/sound/cursor.wav</scrollSound>
 		</textlist>
 
-	</view> 
-
-
-
-
-
-
+	</view>
 
 	<view name="detailed">
 		<image name="game-meta" extra="true">
-			<pos>0.474479166666667 0.665740740740741</pos>
-			<size>0.3765625 0.078703703703704</size>
-<path>./_inc/assets/gamemeta.svg</path>
-		<path>./${system.theme}/_inc/gamemeta.svg</path>
+			<pos>0.4 0.665740740740741</pos>
+			<size>0.56484375 0.083007813</size>
+			<path>./_inc/assets/gamemeta.svg</path>
+			<path>./${system.theme}/_inc/gamemeta.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
@@ -449,16 +406,25 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</image>
 
 		<text name="md_genre">
-			<pos>0.474479166666667 0.716666666666667</pos>
+			<pos>0.42 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
 			<alignment>center</alignment>
-		</text> 
+		</text>
 
 		<text name="md_players">
-			<pos>0.573958333333333 0.716666666666667</pos>
+			<pos>0.57 0.716666666666667</pos>
+			<size>0.078125 0.034259259259259</size>
+			<color>B3B3B3</color>
+			<fontSize>0.014814814814815</fontSize>
+			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
+			<alignment>center</alignment>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.72 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
@@ -467,22 +433,13 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</text>
 
 		<datetime name="md_releasedate">
-			<pos>0.772916666666667 0.716666666666667</pos>
+			<pos>0.865 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 		</datetime>
-
-		<text name="md_developer">
-			<pos>0.6734375 0.716666666666667</pos>
-			<size>0.078125 0.034259259259259</size>
-			<color>B3B3B3</color>
-			<fontSize>0.014814814814815</fontSize>
-			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
-			<alignment>center</alignment>
-		</text>
 
 		<text name="md_description">
 			<color>ffffff</color>
@@ -491,7 +448,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<alignment>center</alignment>
 			<size>0.336458333333333 0.094444444444444</size>
 			<pos>0.494791666666667 0.777777777777778</pos>
-		</text> 
+		</text>
 
 		<video name="md_video">
 			<pos>0.322916666666667 0</pos>
@@ -507,14 +464,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	</view>
 
 
-
-
-
-
-
-
-
-
 	<view name="grid">
 
 
@@ -525,7 +474,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<horizontalAlignment>right</horizontalAlignment>
 			<origin>0 0</origin>
 			<color>909090ff</color>
-		</image>  
+		</image>
 
 
 		<image name="logo2" extra="true">
@@ -547,8 +496,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		<image name="logo2" extra="true" region="mix">
 			<path>./${system.theme}/_inc/mainlogo.svg</path>
 		</image>
-
-
 
 
 		<image name="logo">
@@ -591,19 +538,13 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<!--<backgroundImage>./_inc/images/default_grid.png</backgroundImage>-->
 			<backgroundColor>42424200</backgroundColor>
 			<imageColor>ffffffff</imageColor>
-		</gridtile>   
+		</gridtile>
 
 		<text name="md_name">
 			<color>ffffff</color>
 			<fontPath>./_inc/fonts/RedHatDisplay-Regular.ttf</fontPath>
 		</text>
 	</view>
-
-
-
-
-
-
 
 
 	<customView name="Boxes" inherits="grid">
@@ -652,7 +593,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<path>./${system.theme}/_inc/gamemeta.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
-		</image>  
+		</image>
 
 		<text name="md_name">
 			<pos>-2 -2</pos>
@@ -684,7 +625,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<fontSize>0.014814814814815</fontSize>
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
 			<alignment>center</alignment>
-		</text>         
+		</text>
 
 		<text name="md_developer">
 			<pos>0.5109375 0.827777777777778</pos>
@@ -706,14 +647,10 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	</customView>
 
 
+	<customView name="Tiles" inherits="grid">
 
 
-
-<customView name="Tiles" inherits="grid">
-
-
-
-<imagegrid name="gamegrid">
+		<imagegrid name="gamegrid">
 			<autoLayout>5 2</autoLayout>
 			<scrollLoop>true</scrollLoop>
 			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
@@ -745,11 +682,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</image>
 
 
-		
-
-
-
-<video name="md_video">
+		<video name="md_video">
 			<pos>0 -0.3</pos>
 			<size>1 1</size>
 			<zIndex>6</zIndex>
@@ -790,7 +723,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</image>
 
 
-
 		<image name="thumbnailFallback" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -798,8 +730,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<origin>0 0</origin>
 			<path>./_inc/assets/defaultwide.svg</path>
 		</image>
-
-
 
 
 		<image name="gridtile.marquee">
@@ -820,9 +750,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<size>0.60 0.60</size>
 		</image>
 
-		
-
-		
 
 		<image name="md_marquee">
 			<pos>0.5 0.162037037037037</pos>
@@ -841,7 +768,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</image>
 
 
-
 		<text name="md_genre">
 			<pos>0.311979166666667 0.467592592592593</pos>
 			<size>0.078125 0.034259259259259</size>
@@ -849,7 +775,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<fontSize>0.014814814814815</fontSize>
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
 			<alignment>center</alignment>
-		</text> 
+		</text>
 
 		<text name="md_players">
 			<pos>0.411458333333333 0.467592592592593</pos>
@@ -885,10 +811,10 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<alignment>center</alignment>
 			<size>0.336458333333333 0.094444444444444</size>
 			<pos>0.332291666666667 0.287037037037037</pos>
-		</text> 
+		</text>
 
 
-<!--<text name="gridtile.text">
+		<!--<text name="gridtile.text">
 			<pos>0 0</pos>
 			<padding>0.1 0</padding>
 			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
@@ -899,7 +825,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	-->
 
 
-<text name="gridtile">
+		<text name="gridtile">
 			<visible>true</visible>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -908,46 +834,39 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<lineSpacing>1.15</lineSpacing>
 			<alignment>center</alignment>
 			<singleLineScroll>false</singleLineScroll>
-			<padding>0 0</padding>      
+			<padding>0 0</padding>
 			<backgroundColor>00000000</backgroundColor>
 			<glowSize>3</glowSize>
 			<visible>false</visible>
 		</text>
 
 
-
-
-
-
-
-
 	</customView>
 
 
-
 	<subset name="videoDelay" displayName="${subset.videoDelay}">
-		<include name="2 Seconds"/>
-		<include name="5 Seconds">./_inc/system/video/5seconds.xml</include>
-		<include name="video off">./_inc/system/video/videooff.xml</include>
+		<include name="2 Secondes" />
+		<include name="5 Secondes">./_inc/system/video/5seconds.xml</include>
+		<include name="Pas de vidéo">./_inc/system/video/videooff.xml</include>
 	</subset>
 
 
-<subset name="animations" displayName="${subset.animations}">
-		<include name="Off"/>
-		<include name="On">./_inc/system/storyboards.xml</include>
+	<subset name="animations" displayName="${subset.animations}">
+		<include name="Non" />
+		<include name="Oui">./_inc/system/storyboards.xml</include>
 	</subset>
 
 
 	<subset name="systemsVideoDelay" displayName="${subset.systemsVideoDelay}">
-		<include name="2 Seconds"/>
-		<include name="5 Seconds">./_inc/system/video/systems-5seconds.xml</include>
-		<include name="video off">./_inc/system/video/systems-videooff.xml</include>
+		<include name="2 Secondes" />
+		<include name="5 Secondes">./_inc/system/video/systems-5seconds.xml</include>
+		<include name="Pase de vidéo">./_inc/system/video/systems-videooff.xml</include>
 	</subset>
 
 
 	<subset name="buttonSet" displayName="${subset.buttonSet}">
-		<include name="All system buttons"/>
-		<include name="Generic buttons">./_inc/system/buttons/generic.xml</include>
+		<include name="Tous" />
+		<include name="Boutons Génériques">./_inc/system/buttons/generic.xml</include>
 		<include name="Master System">./_inc/system/buttons/mastersystem.xml</include>
 		<include name="SG-1000">./_inc/system/buttons/sg1000.xml</include>
 		<include name="Snes">./_inc/system/buttons/snes.xml</include>
@@ -975,15 +894,14 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 	</subset>
 
 	<subset name="boxNames" displayName="${subset.boxNames}">
-		<include name="no"/>
-		<include name="yes">./_inc/system/toggleboxnames.xml</include>
+		<include name="Non" />
+		<include name="Oui">./_inc/system/toggleboxnames.xml</include>
 	</subset>
 
 
-
 	<subset name="darkmode" displayName="${subset.darkmode}">
-		<include name="no"/>
-		<include name="yes">./_inc/system/darkmode.xml</include>
+		<include name="Non" />
+		<include name="Oui">./_inc/system/darkmode.xml</include>
 	</subset>
 
 
